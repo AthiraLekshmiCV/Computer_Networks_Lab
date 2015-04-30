@@ -38,7 +38,7 @@ int main(){
 		printf("\nClient>>%s\n",rmsg);
 		if((strcmp(rmsg,"bye"))==0){
 			
-			exit(0);		
+			exit(0);
 		}
 		printf("\nServer>>");
 		scanf("%s",smsg);
