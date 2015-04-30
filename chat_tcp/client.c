@@ -24,6 +24,7 @@ int main(){
 	
 	connect(c_sockfd,(struct sockaddr*)&server_addr,sizeof(server_addr));   //Connect the socket to the address of the server
 	
+	
 	printf("\n");
 	
 	//send and recieve data.
